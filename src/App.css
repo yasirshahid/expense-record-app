@@ -14,7 +14,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: ''Lato', sans-serif;'
 }
 
 .container {
@@ -147,6 +147,7 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
 
 @media (max-width: 320px) {
   .container {
