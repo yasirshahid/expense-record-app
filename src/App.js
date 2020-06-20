@@ -7,11 +7,12 @@ import Balance from './components/Balance';
 import AccountSummary from './components/AccountSummary';
 import TransactionHistory from './components/TranscationHistory';
 import AddTransaction from './components/AddTranscation';
+import { GlobalProvider } from './Context/GlobalState';
 
 
 function App() {
   return (
-    <div >
+    <div>
       <Header/>
       <div className="container">
         <Balance/>
