@@ -14,7 +14,7 @@ const initialState={
 export const GlobalContext = createContext(initialState);
 
 export const GlobalProvider = ({children})=>{
-    // const[state,dispatch]=useReducer(AppReducer,initialState)
+    const[state]=useReducer(AppReducer,initialState)
 
     return(
         <GlobalContext.Provider value={
