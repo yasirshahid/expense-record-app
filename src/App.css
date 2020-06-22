@@ -149,7 +149,11 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
-
+.h6{
+  color: red;
+  font-size: small;
+  margin-left: 10px;
+}
 
 @media (max-width: 320px) {
   .container {

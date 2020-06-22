@@ -22,11 +22,14 @@ const AddTransaction = () =>{
     return(
         <div>
             <h3> Add New Transaction </h3>
+            
             <form onSubmit={onSubmit}>
                 <div className="from-control">
                     <lable htmlFor="description">
-                        Description
+                        Description:   
+                        
                     </lable>
+                    <label className="h6"> *Add (-) from add expense amount </label>
                     <input type="text" 
                            id="description"
                            placeholder="Details of transaction"
