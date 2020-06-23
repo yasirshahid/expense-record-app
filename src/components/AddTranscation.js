@@ -29,7 +29,7 @@ const AddTransaction = () =>{
                         Description:   
                         
                     </lable>
-                    <label className="h6"> *Add (-) from add expense amount </label>
+                    <label className="h6"> *Add (-) in add expense amount </label>
                     <input type="text" 
                            id="description"
                            placeholder="Details of transaction"
